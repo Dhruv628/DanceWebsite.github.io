@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='../public/stlyes/index.js')
+
+block style
+  link(href="./styles/style.css", rel="stylesheet") 
+
+block content
+
+ section.introSection 
+     h1.firstheading  Welcome to Dhruv's Dance Academy 
+     h2.secondheadind Eat Sleep Dance Repeat
+ section.missionSection 
+    h3.missionHeading Our Mission 
+    div.TriBox
+     div.box 
+       h6.boxheading Dance Perfection 
+       div.insideBox
+         div.card-Img
+           img(alt="image not loaded properly" src="https://svgsilh.com/svg/3079159.svg" )
+         div This is the best Dance Academy in this town
+     div.box 
+       h6.boxheading Dance the way you like
+       div.insideBox
+         div.card-Img
+           img(alt="image not loaded properly" src="https://svgsilh.com/svg/310022.svg" )
+         div This is the best Dance Academy in this town 
+     div.box 
+       h6.boxheading Expert Teaching
+       div.insideBox
+         div.card-Img
+           img(alt="image not loaded properly" src="https://svgsilh.com/svg/1456923.svg" )    
+         div This is the best Dance Academy in this town
+ section.sponsorSection 
+     h4.sponsorHeading Our Sponsors
+     div.sponsorLogo 
+       div.logo
+         img(alt="image not loaded properly" src="https://www.logo.wine/a/logo/Microsoft/Microsoft-Logo.wine.svg" )
+       div.logo
+         img(alt="image not loaded properly" src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg")
+       div.logo
+         img(alt="image not loaded properly" src="https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg")
+       

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+
+  .navbar{
+    @apply  items-center flex space-x-14 py-2 font-serif text-lg text-white bg-red-700;
+  }
+  .home{
+    @apply mx-4;
+  }
+  .navImg {
+    @apply h-10 w-10 invert mx-3 flex;
+  }
+  .dda{
+    @apply text-white invert mt-[6px] ;
+  }
+  .navbar li{
+    @apply hover:cursor-pointer hover:text-gray-300 ;
+  } 
+  
+  .firstheading{
+    @apply text-5xl text-white font-bold   ;
+  }
+  .secondheadind{
+    @apply text-2xl tracking-wide space-x-3 text-white font-bold   ;
+  }
+ .introSection{
+    @apply bg-dance flex flex-col font-mono items-center justify-center h-[24rem] opacity-80 bg-no-repeat bg-center bg-cover   ;
+  }
+
+
+  .missionHeading{
+    @apply w-40 m-auto text-2xl font-serif py-6 font-semibold;
+  }
+  .TriBox{
+    @apply flex justify-center space-x-24 my-5;
+  }
+
+  .card-Img{
+    @apply h-36 w-40 ;
+  }
+  .box{
+    @apply text-center border-2 border-black h-56 rounded-lg w-80;
+  }
+  .insideBox{
+    @apply flex space-x-6 my-6 px-6;
+  }
+  .boxheading{
+    @apply font-semibold text-xl;
+  }
+  .missionSection{
+    @apply bg-white ;
+  }
+
+
+  .sponsorSection{
+    @apply bg-pink-200 h-96;
+  }
+  .sponsorHeading{
+    @apply w-[11rem] m-auto py-10 font-bold text-2xl font-serif;
+  }
+  .sponsorLogo{
+    @apply flex space-x-20 items-center justify-center;
+  }
+  .logo{
+    @apply h-48 w-72;
+  }
+  .footer{
+    @apply bg-black h-8 flex items-center justify-center text-white;
+  }
+
+  /* Contact */
+  .container{
+    @apply min-h-[87vh];
+  }
+  .contactHeading{
+  @apply flex justify-center items-center text-3xl font-serif font-bold my-5;
+  }
+  .contactform{
+    @apply flex flex-col space-y-4 justify-center items-center my-4;
+  }
+  .contactform input{
+    @apply border-2 border-black rounded-lg p-3 py-4 w-[39rem];
+  }
+  .contactform button{
+    @apply px-5 py-2 rounded-lg bg-red-700 border-2 border-black hover:bg-red-500 text-white ;
+  }
+@tailwind utilities;
